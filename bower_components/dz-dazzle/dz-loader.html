@@ -1172,11 +1172,18 @@
   }
 
   Polymer.loadComponent=function(cat,id){
-    let html = '<link rel="import" href="https://d25k6mzsu7mq5l.cloudfront.net/bower_components/'+cat+'/'+id+'.html?id='+new Date().getTime()+'">';
+    let local = this.dzLicense['local'] || false;
+    let base;
+    if (local==="true")
+        base = '';
+    else
+        base = 'https://d25k6mzsu7mq5l.cloudfront.net/';
+    
+    let html = '<link rel="import" href="'+base+'bower_components/'+cat+'/'+id+'.html?id='+new Date().getTime()+'">';
     let item = document.createRange().createContextualFragment(html); 
     document.head.appendChild(item);
-    let elm = document.createElement(id);
-    document.body.appendChild(elm);
+    // let elm = document.createElement(id);
+    // document.body.appendChild(elm);
   }
 
   Polymer.listenEvent=function(){
@@ -1212,6 +1219,7 @@
             <vaadin-context-menu selector="[dz-panel]">
                 <dz-wrapper></dz-wrapper>
             </vaadin-context-menu>
+            <dz-admin></dz-admin>
             `;
           this.loadComponent('dz-dazzle','dz-admin');
       } else {
@@ -1222,7 +1230,7 @@
         this.websiteUrl = location.hostname;      
         this.thisPage = thisPage;
         this.userType = Polymer.dzLicense['userType'] || 'normal';
-        document.body.innerHTML = "<dz-wrapper></dz-wrapper>";                
+        document.body.innerHTML = "<dz-wrapper></dz-wrapper><dz-dazzle></dz-dazzle>";                
         this.loadComponent('dz-dazzle','dz-dazzle');
     
       }
@@ -1452,50 +1460,6 @@
           let style = shadow.querySelector('style');
           console.log('Style',style,shadow);
        
-        // Promise.all([Polymer.getPageContent('head'),Polymer.getPageContent('css'), Polymer.getPageContent('html'),Polymer.getPageContent('body_js'),this.getPageContent('body_class')]).then(function(results) {
-        //   console.log('Result',results);
-        //   let head = results[0];
-        //   let css = results[1];
-        //   let html = results[2];
-        //   let bodyJs = results[3];
-        //   let bodyClass = results[4];
-
-        //   // Head
-        //   let headElm = document.createRange().createContextualFragment(head);
-        //   let dzWrapeprHead = document.createElement('dz-wrapper-head');
-        //   dzWrapeprHead.appendChild(headElm);
-        //   document.head.appendChild(dzWrapeprHead);    
-
-        //   // CSS
-        //   let elm = document.createRange().createContextualFragment(css);
-        //   let dzWrapperCss = document.createElement('dz-wrapper-css');
-        //   dzWrapperCss.appendChild(elm);
-        //   document.head.appendChild(dzWrapperCss);
-
-        //   // HTML
-        
-        //     shadow.innerHTML = html;
-        //   console.log('Load Body',html);
-          
-        //   // Body JS
-        //   let body = document.createRange().createContextualFragment(bodyJs);
-        //   console.log('Body JS',body);
-        //   let dzWrapperBodyScript = document.createElement('dz-wrapper-body-js');
-        //   dzWrapperBodyScript.appendChild(body);
-        //   console.log('Body',document.body);
-        //   document.body.appendChild(dzWrapperBodyScript);
-
-        // //   if (that.editMode==="admin")       
-        // //     that.listenEvent();
-        
-        //   // Body Class
-        //   document.body.setAttribute('class',bodyClass);
-        // //   that.computedStyle();
-
-        // });
-
-
-
         Promise.all([Polymer.loadHead(),Polymer.loadCss(),Polymer.loadHtml(shadow),Polymer.loadBodyJs(),Polymer.loadBodyClass()]);
 
 
@@ -1536,6 +1500,7 @@
   }
 
   Polymer.dzFire = function(event,params){
+      console.log('Fire',event,params);
     document.dispatchEvent(new CustomEvent(event, params));
   }
 

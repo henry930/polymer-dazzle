@@ -94,7 +94,7 @@
 
 				item.addEventListener('click',e=>{
           Polymer._curElm = that.curElm;
-          console.log('Event',Polymer._curElm);
+          console.log('Event',Polymer._curElm,ele.event);
 
 					document.dispatchEvent(new CustomEvent(ele.event, { detail: {'size':'big','element':that.curElm} }));
 				});
@@ -103,31 +103,27 @@
 			};
 
       },
-      closeDialog(){
-        const shadow = this.shadowRoot;
-        const dialog = shadow.querySelector('vaadin-dialog');
-        dialog.opened = false;
-      },
       popup(folder,component,width,height){
           const shadow = this.shadowRoot;
           const dialog = shadow.querySelector('vaadin-dialog');
-          let link = document.createElement('link');
-          link.setAttribute('rel','import');
-          link.setAttribute('href','https://d25k6mzsu7mq5l.cloudfront.net/bower_components/'+folder+'/'+component+'.html?id='+new Date().getTime());            
+          // let link = document.createElement('link');
+          // link.setAttribute('rel','import');
+          // link.setAttribute('href','https://d25k6mzsu7mq5l.cloudfront.net/bower_components/'+folder+'/'+component+'.html?id='+new Date().getTime());            
 
-          document.querySelector('head').appendChild(link);
 
-          customElements.whenDefined('vaadin-dialog').then(function() {
+          //document.querySelector('head').appendChild(link);
+
+          Polymer.loadComponent(folder,component);
+          customElements.whenDefined(component).then(function() {
             dialog.renderer = function(root, dialog) {
               root.innerHTML = '<'+component+'></'+component+'>';
             };
             dialog.resizable = true;
             dialog.resize(width,height);
-            dialog.opened = true;		    
+            dialog.opened = true;		 
+            Polymer.activeDialog = dialog;   
           });
-
-    
-          
+      
       },
       closeDialog(){
         const shadow = this.shadowRoot;
@@ -430,6 +426,13 @@
         });
 
 
+        document.addEventListener('link-edit',e=>{
+            // document.dispatchEvent(new CustomEvent('custom-popup', { detail: {'component':'dz-file-management','size':'big'} }));
+            console.log('E',e);
+            that.popup('dz-dazzle','dz-link-manage','800px','580px');
+
+
+        });
         document.addEventListener('img-stock',e=>{
             // document.dispatchEvent(new CustomEvent('custom-popup', { detail: {'component':'dz-file-management','size':'big'} }));
             console.log('E',e);
