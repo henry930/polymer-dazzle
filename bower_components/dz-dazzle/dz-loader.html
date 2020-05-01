@@ -468,7 +468,7 @@
             s3.putObject(params, function (err, data) {
                 if (err) {
                     console.log(err);
-                    reject(err);
+                    reject('Save User Data',err);
                 } else {
                     console.log(data);
                     resolve(data);
@@ -1068,7 +1068,7 @@
               that.postData(that.dbUrl,json).toPromise().then((result)=>{
                   console.log(result);
                       if(result.code>0){
-                          resolve();
+                          resolve();z
                       }else {
                           console.log('Error',result.text + ":" + result.err.code);
                           reject();
@@ -1076,7 +1076,31 @@
               });
           });
       }
-  
+      removeGalleryRecord(id){
+
+        let that = this;
+        let json = {
+            "action": "deleteData",
+            "index": 'gallery',
+            "type": 'table',
+            "id": id
+        }
+        console.log(json);
+        return new Promise(function (resolve, reject) {
+
+            that.postData(that.dbUrl,json).then((result)=> {
+                console.log('Result',result);
+                    if (result.code < 0) {
+                        resolve({});
+                    } else {
+                        console.log(result.resolve);
+                        resolve(result.resolve);
+                    }
+                });
+
+            });
+
+        }
       getGalleryRecord(id){
 
           let that = this;
@@ -1172,11 +1196,18 @@
   }
 
   Polymer.loadComponent=function(cat,id){
-    let html = '<link rel="import" href="https://d25k6mzsu7mq5l.cloudfront.net/bower_components/'+cat+'/'+id+'.html?id='+new Date().getTime()+'">';
+    let local = this.dzLicense['local'] || false;
+    let base;
+    if (local==="true")
+        base = '';
+    else
+        base = 'https://d25k6mzsu7mq5l.cloudfront.net/';
+    
+    let html = '<link rel="import" href="'+base+'bower_components/'+cat+'/'+id+'.html?id='+new Date().getTime()+'">';
     let item = document.createRange().createContextualFragment(html); 
     document.head.appendChild(item);
-    let elm = document.createElement(id);
-    document.body.appendChild(elm);
+    // let elm = document.createElement(id);
+    // document.body.appendChild(elm);
   }
 
   Polymer.listenEvent=function(){
@@ -1212,6 +1243,7 @@
             <vaadin-context-menu selector="[dz-panel]">
                 <dz-wrapper></dz-wrapper>
             </vaadin-context-menu>
+            <dz-admin></dz-admin>
             `;
           this.loadComponent('dz-dazzle','dz-admin');
       } else {
@@ -1222,7 +1254,7 @@
         this.websiteUrl = location.hostname;      
         this.thisPage = thisPage;
         this.userType = Polymer.dzLicense['userType'] || 'normal';
-        document.body.innerHTML = "<dz-wrapper></dz-wrapper>";                
+        document.body.innerHTML = "<dz-wrapper></dz-wrapper><dz-dazzle></dz-dazzle>";                
         this.loadComponent('dz-dazzle','dz-dazzle');
     
       }
@@ -1356,6 +1388,11 @@
             wrapper.appendChild(elm);
             document.head.appendChild(wrapper);    
             resolve();
+        },err=>{
+            let wp = document.createElement('dz-wrapper-master-css');
+            document.head.appendChild(wp);
+            wp = document.createElement('dz-wrapper-css');
+            document.head.appendChild(wp);
         });
     });
 
@@ -1404,7 +1441,37 @@
 
     }
 
+Polymer.contextRender = function(menu){
+    console.log('Menu',menu, Polymer._curElm);
+ 
+			const shadow = document.querySelector('dz-wrapper');
+			const contextMenu = document.querySelector('vaadin-context-menu');
+			contextMenu.renderer = function(root) {
+                let listBox = root.firstElementChild;
+                // Check if there is a list-box generated with the previous renderer call to update its content instead of recreation
+                if (listBox) {
+                    listBox.innerHTML = '';
+                } else {
+                    listBox = window.document.createElement('vaadin-list-box');
+                    root.appendChild(listBox);
+                }
+                console.log('Root',root);
+                menu.forEach(function(ele) {
+                    const item = window.document.createElement('vaadin-item');
+                    item.textContent = ele.label;
+                    console.log('Event',item);
 
+                    item.addEventListener('click',e=>{
+                        console.log('Event',Polymer._curElm);
+
+                        document.dispatchEvent(new CustomEvent(ele.event, { detail: {'size':'big','element':that.curElm} }));
+                    });
+                    listBox.appendChild(item);
+                });
+            }
+
+
+}
 
   Polymer.getPageContent=function(type){
         let that = this;
@@ -1452,50 +1519,6 @@
           let style = shadow.querySelector('style');
           console.log('Style',style,shadow);
        
-        // Promise.all([Polymer.getPageContent('head'),Polymer.getPageContent('css'), Polymer.getPageContent('html'),Polymer.getPageContent('body_js'),this.getPageContent('body_class')]).then(function(results) {
-        //   console.log('Result',results);
-        //   let head = results[0];
-        //   let css = results[1];
-        //   let html = results[2];
-        //   let bodyJs = results[3];
-        //   let bodyClass = results[4];
-
-        //   // Head
-        //   let headElm = document.createRange().createContextualFragment(head);
-        //   let dzWrapeprHead = document.createElement('dz-wrapper-head');
-        //   dzWrapeprHead.appendChild(headElm);
-        //   document.head.appendChild(dzWrapeprHead);    
-
-        //   // CSS
-        //   let elm = document.createRange().createContextualFragment(css);
-        //   let dzWrapperCss = document.createElement('dz-wrapper-css');
-        //   dzWrapperCss.appendChild(elm);
-        //   document.head.appendChild(dzWrapperCss);
-
-        //   // HTML
-        
-        //     shadow.innerHTML = html;
-        //   console.log('Load Body',html);
-          
-        //   // Body JS
-        //   let body = document.createRange().createContextualFragment(bodyJs);
-        //   console.log('Body JS',body);
-        //   let dzWrapperBodyScript = document.createElement('dz-wrapper-body-js');
-        //   dzWrapperBodyScript.appendChild(body);
-        //   console.log('Body',document.body);
-        //   document.body.appendChild(dzWrapperBodyScript);
-
-        // //   if (that.editMode==="admin")       
-        // //     that.listenEvent();
-        
-        //   // Body Class
-        //   document.body.setAttribute('class',bodyClass);
-        // //   that.computedStyle();
-
-        // });
-
-
-
         Promise.all([Polymer.loadHead(),Polymer.loadCss(),Polymer.loadHtml(shadow),Polymer.loadBodyJs(),Polymer.loadBodyClass()]);
 
 
@@ -1505,6 +1528,7 @@
             let content;
             // Head
             content = document.querySelector('dz-wrapper-head').innerHTML;
+            console.log('Save Head',basePath+'head');
             this.fileManager.saveUserData(basePath+'head',content);
 
             // HTML
@@ -1536,6 +1560,7 @@
   }
 
   Polymer.dzFire = function(event,params){
+      console.log('Fire',event,params);
     document.dispatchEvent(new CustomEvent(event, params));
   }
 

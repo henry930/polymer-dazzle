@@ -46,7 +46,7 @@
 			document.addEventListener('save',e=>{
 				console.log('Block Save');
 				let content = that.innerHTML;
-				Polymer.fileManager.saveUserData('template/'+this.tid+'/_dz-block/'+this.block+'/html',content);
+				Polymer.fileManager.saveUserData('template/'+Polymer.tid+'/_dz-block/'+this.block+'/html',content);
 			});
 		},
 	});
