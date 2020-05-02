@@ -1,0 +1,171 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="gallery-register">
+
+	<template>
+
+        <style include="master-styles"></style>
+		<style include="master1-styles"></style>
+		<style include="master2-styles"></style>
+		<style include="master3-styles"></style>
+		<style include="master4-styles"></style>
+        <style include="master5-styles"></style>
+        
+        <div class="auth-content">
+            <h2>多搜網註冊</h2>
+              <div class="auth-connections">
+                  
+          <a class="form-btn auth-google auth-google-new" rel="nofollow" data-method="post" href="/auth/google_signup">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="h1yh86ef5k7v3o7bhv1x61izqaa9xbc" role="img" viewBox="0 0 24 24" class="icon "><title id="h1yh86ef5k7v3o7bhv1x61izqaa9xbc">Google icon</title><path d="M12.24 10.285V14.4h6.806c-.275 1.765-2.056 5.174-6.806 5.174-4.095 0-7.439-3.389-7.439-7.574s3.345-7.574 7.439-7.574c2.33 0 3.891.989 4.785 1.849l3.254-3.138C18.189 1.186 15.479 0 12.24 0c-6.635 0-12 5.365-12 12s5.365 12 12 12c6.926 0 11.52-4.869 11.52-11.726 0-.788-.085-1.39-.189-1.989H12.24z"></path></svg>
+          
+            Sign up with Google
+          </a>
+                <a class="auth-twitter form-btn" rel="nofollow" data-method="post" href="https://dribbble.com/auth/Twitter?signup=true">
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="f6s167kecrjt90nmenfckn5v3dhhzs1" role="img" viewBox="0 0 24 24" class="icon "><title id="f6s167kecrjt90nmenfckn5v3dhhzs1">Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+          
+          </a>      
+          <a class="form-btn auth-facebook " rel="nofollow" title="Sign in with Facebook" data-method="post" href="/auth/facebook/callback?signup=1">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="8gr7stgu8omstzfkfkbya50fem13sas" role="img" viewBox="0 0 24 24" class="icon "><title id="8gr7stgu8omstzfkfkbya50fem13sas">Facebook icon</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path></svg>
+          
+            
+          </a>
+              </div>
+              <hr class="divider">
+          
+            <div class="auth-form signup-form">
+              <form class="hide-remove gen-form with-messages signup" id="new_user" action="https://dribbble.com/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="qauMEa855PiKJeCZar8ydA5/aEhvDa9eGQB2BuxxOEiK41XUmszu8tUcwV0enLJObzetWisC64sfQpTuPJCtkA==">
+                <div class="form-field hide">
+            <fieldset>
+              <label for="contact_surname">Surname</label>
+              <input type="text" name="surname" id="surname">
+            </fieldset>
+          </div>
+          
+          
+                <input type="hidden" name="product" id="product">
+                
+          
+                
+          
+                <input type="hidden" name="user[bio]" id="user_bio">
+                <input type="hidden" name="user[location]" id="user_location">
+          
+                
+          
+          
+                <div class="form-field-group">
+                  <div class="form-field">
+                    <fieldset class="user_name"><label for="user_name">姓名</label><input autocomplete="name" class="text-input" type="text" name="user[name]" id="user_name"></fieldset>
+                  </div>
+          
+                  <div class="form-field">
+                    <fieldset class="user_login"><label for="user_login">登入名稱</label><input autocorrect="off" autocapitalize="off" autocomplete="username" class="text-input" type="text" name="user[login]" id="user_login"></fieldset>
+                  </div>
+                </div>
+          
+                <div class="form-field">
+                  <fieldset class="user_email"><label for="user_email">電話</label><input class="text-input" type="text" name="user[email]" id="user_email"></fieldset>
+                </div>
+          
+                <div class="form-field">
+                  <fieldset class="user_password"><label for="user_password">電郵</label><input class="text-input" placeholder="6+ characters" type="password" name="user[password]" id="user_password"></fieldset>
+                </div>
+          
+                <div class="form-field check-wrap opt-in">
+                  <fieldset>
+                    <input type="checkbox" id="user_agree_to_terms" name="user[agree_to_terms]">
+                    <label for="user_agree_to_terms">
+          請確認以下的使用條款、私隱政策及通知細則。            </label>
+                  </fieldset>
+                </div>
+          
+                <div class="form-btns">
+                  <input type="submit" name="commit" value="製作帳號" class="button form-sub" data-disable-with="製作帳號">
+                </div>
+          
+                  <p class="auth-link-mobile">已經是會員<a href="/session/new">登入</a>
+                  </p>
+          
+                
+          
+          
+                
+          
+                
+          </form>  </div>
+          </div>
+
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+
+
+	Polymer({
+		is: 'gallery-register',
+		properties: {
+			
+		},
+
+		created:function() {
+			this.thisPage = decodeURIComponent(window.location.pathname).substring(window.location.pathname.indexOf('/') + 1) || 'index.html';
+		},
+		_login:function(){
+			console.log('Login');
+			let shadow = this.shadowRoot;
+			let that = this;
+			let uid = shadow.querySelector('#uid').value;
+			let password = shadow.querySelector('#password').value;
+			// let fileManager = new DataPackage('token');
+
+
+            let loginUrl = "https://37nolo3390.execute-api.ap-northeast-1.amazonaws.com/prod";
+			let params = {
+				"uid": uid,
+				"password": password,
+				"type": "loginByUidPassword"
+			};
+			Polymer.postData(loginUrl,params).then(res=>{
+				if (res.code>0){
+					let uid = res.resolve['uid'];
+					let user = res.resolve;
+					user['thisPage'] = this.thisPage;
+					store.set('user',res.resolve);
+					store.set('editMode','admin');
+					store.set('thisPage',this.thisPage);
+					// let token = that.generatePassword();
+					// fileManager.saveToken(uid,token,user).then(data=>{
+					// 	console.log('Token',data);
+						location.reload();
+						// location.href = "/dz-admin/index.html#"+token;
+					// });
+
+				} else {
+					alert('登入錯誤');
+				}
+
+
+			});
+		},
+		handleResponse:function(response){
+				console.log('Response',response);
+		},
+		// generatePassword:function() {
+		// 	var length = 16,
+		// 		charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+		// 		retVal = "";
+		// 	for (var i = 0, n = charset.length; i < length; ++i) {
+		// 		retVal += charset.charAt(Math.floor(Math.random() * n));
+		// 	}
+		// 	return retVal;
+		// },
+
+	});
+
+})();
+
+
+</script>

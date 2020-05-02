@@ -1,0 +1,134 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="gallery-login">
+
+	<template>
+
+        <style include="master-styles"></style>
+		<style include="master1-styles"></style>
+		<style include="master2-styles"></style>
+		<style include="master3-styles"></style>
+		<style include="master4-styles"></style>
+        <style include="master5-styles"></style>
+        
+        <div class="auth-content">
+            <h2>登入多搜網</h2>
+            <div class="auth-connections">
+              
+          <a class="form-btn auth-google auth-google-new" rel="nofollow" data-method="post" href="/auth/google">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="jxugmpqclx0cdt5818360ygy80nphe7" role="img" viewBox="0 0 24 24" class="icon "><title id="jxugmpqclx0cdt5818360ygy80nphe7">Google icon</title><path d="M12.24 10.285V14.4h6.806c-.275 1.765-2.056 5.174-6.806 5.174-4.095 0-7.439-3.389-7.439-7.574s3.345-7.574 7.439-7.574c2.33 0 3.891.989 4.785 1.849l3.254-3.138C18.189 1.186 15.479 0 12.24 0c-6.635 0-12 5.365-12 12s5.365 12 12 12c6.926 0 11.52-4.869 11.52-11.726 0-.788-.085-1.39-.189-1.989H12.24z"></path></svg>
+          
+            Sign in with Google
+          </a>
+              <a class="auth-twitter form-btn" rel="nofollow" data-method="post" href="https://dribbble.com/auth/Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="r55ypf550mmt99m0d0w4bb9ct1znbjv" role="img" viewBox="0 0 24 24" class="icon "><title id="r55ypf550mmt99m0d0w4bb9ct1znbjv">Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+          
+          </a>    
+          <a class="form-btn auth-facebook " rel="nofollow" title="Sign in with Facebook" data-method="post" href="/auth/facebook/callback">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="8013b6uxrak93bx6n633sijshzm3tsg" role="img" viewBox="0 0 24 24" class="icon "><title id="8013b6uxrak93bx6n633sijshzm3tsg">Facebook icon</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path></svg>
+          
+            
+          </a>
+            </div>
+          
+            <hr class="divider">
+          
+            <div class="auth-form sign-in-form">
+              <form action="/session" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="gUBDJDxmfYW8o2pCAV15qCAaFPWu5T9d3Jt/dArwaJ6iCJrhCZN3j+OaS4Z1fvmSQVLR5+rqe4ja2Z2c2hH9Rg==">
+                
+                
+                <div class="form-fields">
+                  <fieldset>
+                    <label for="login">用戶帳號</label>
+                    <input type="text" name="login" id="login" tabindex="1" class="text-input" autocorrect="off" autocapitalize="off">
+                  </fieldset>
+          
+                  <fieldset>
+                    <label for="password" class="password">密碼<a href="/password_resets/new">忘記密碼</a></label>
+                    <input type="password" name="password" id="password" value="" tabindex="2" class="text-input">
+                  </fieldset>
+                </div>
+          
+                <input class="button form-sub" type="submit" value="登入" tabindex="3">
+          </form>
+                <p class="auth-link-mobile">
+                  Not a member? <a href="/signup/new">Sign up now</a>
+                </p>
+            </div>
+          </div>
+
+
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+
+
+	Polymer({
+		is: 'gallery-login',
+		properties: {
+			
+		},
+
+		created:function() {
+			this.thisPage = decodeURIComponent(window.location.pathname).substring(window.location.pathname.indexOf('/') + 1) || 'index.html';
+		},
+		_login:function(){
+			console.log('Login');
+			let shadow = this.shadowRoot;
+			let that = this;
+			let uid = shadow.querySelector('#uid').value;
+			let password = shadow.querySelector('#password').value;
+			// let fileManager = new DataPackage('token');
+
+
+            let loginUrl = "https://37nolo3390.execute-api.ap-northeast-1.amazonaws.com/prod";
+			let params = {
+				"uid": uid,
+				"password": password,
+				"type": "loginByUidPassword"
+			};
+			Polymer.postData(loginUrl,params).then(res=>{
+				if (res.code>0){
+					let uid = res.resolve['uid'];
+					let user = res.resolve;
+					user['thisPage'] = this.thisPage;
+					store.set('user',res.resolve);
+					store.set('editMode','admin');
+					store.set('thisPage',this.thisPage);
+					// let token = that.generatePassword();
+					// fileManager.saveToken(uid,token,user).then(data=>{
+					// 	console.log('Token',data);
+						location.reload();
+						// location.href = "/dz-admin/index.html#"+token;
+					// });
+
+				} else {
+					alert('登入錯誤');
+				}
+
+
+			});
+		},
+		handleResponse:function(response){
+				console.log('Response',response);
+		},
+		// generatePassword:function() {
+		// 	var length = 16,
+		// 		charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+		// 		retVal = "";
+		// 	for (var i = 0, n = charset.length; i < length; ++i) {
+		// 		retVal += charset.charAt(Math.floor(Math.random() * n));
+		// 	}
+		// 	return retVal;
+		// },
+
+	});
+
+})();
+
+
+</script>

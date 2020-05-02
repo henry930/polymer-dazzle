@@ -1,0 +1,81 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../gallery/gallery-login.html">
+<link rel="import" href="../gallery/gallery-register.html">
+<link rel="import" href="../vaadin-dialog/vaadin-dialog.html">
+
+
+<dom-module id="gallery-user">
+
+	<template>
+
+        <style include="master-styles"></style>
+		<style include="master1-styles"></style>
+		<style include="master2-styles"></style>
+		<style include="master3-styles"></style>
+		<style include="master4-styles"></style>
+        <style include="master5-styles"></style>
+
+        <li id="t-signin" class="tab-signin" data-top-level="signin">
+            <a href="#" on-click="_login">
+              <span>登入</span>
+</a>          </li>
+          <li id="t-signup" class="tab-signup" data-top-level="signup">
+              <a class="primary-btn" href="#" on-click="_register">
+                <span class="form-sub">註冊</span>
+</a>          </li>
+
+<vaadin-dialog aria-label="big" id="dialog"  theme="error"></vaadin-dialog>
+
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+
+
+	Polymer({
+		is: 'gallery-user',
+		properties: {
+			
+		},
+
+		created:function() {
+		},
+		_login:function(){
+                this.popup('gallery','gallery-login','420px','640px');
+		},
+		_register:function(){
+            this.popup('gallery','gallery-register','420px','640px');
+        },
+        popup(folder,component,width,height){
+          const shadow = this.shadowRoot;
+          const dialog = shadow.querySelector('vaadin-dialog');
+          // let link = document.createElement('link');
+          // link.setAttribute('rel','import');
+          // link.setAttribute('href','https://d25k6mzsu7mq5l.cloudfront.net/bower_components/'+folder+'/'+component+'.html?id='+new Date().getTime());            
+
+
+          //document.querySelector('head').appendChild(link);
+
+        //   Polymer.loadComponent(folder,component);
+        //   customElements.whenDefined(component).then(function() {
+            dialog.renderer = function(root, dialog) {
+              root.innerHTML = '<'+component+'></'+component+'>';
+            };
+            dialog.resizable = true;
+            dialog.resize(width,height);
+            dialog.opened = true;		 
+            Polymer.activeDialog = dialog;   
+
+        //   });
+      
+      },
+
+	});
+
+})();
+
+
+</script>
