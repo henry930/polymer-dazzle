@@ -155,7 +155,7 @@
 										"tags": this.tags                    
 									}                
 									console.log('params',params);
-								Polymer.fileManager.postData(url,params).then(res=>{
+								Polymer.postData(url,params).then(res=>{
 									let images = res.resolve;
 									console.log('Images',images);
 									images.forEach(item =>{
@@ -173,7 +173,10 @@
 			let elm = document.createElement('gallery-image-item');
 			elm.gid = item['gid'];
 			console.log('Elm',elm.gid);
-			
+			elm.addEventListener('click',e=>{
+				this.popup('gallery','gallery-shot-item','840px','90%');
+
+			});
 			shadow.querySelector('#imageList').appendChild(elm);
 
 		},

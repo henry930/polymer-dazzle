@@ -105,7 +105,7 @@
           
                 <h2 class="attribution hover-card-parent">
                     <span class="attribution-team">
-                      <a class="hoverable url" rel="contact" href="/Fireart-d"><img class="photo" alt="Fireart Studio" src="https://cdn.dribbble.com/users/485324/avatars/mini/479e0aa76edbad47c51f159fd88e2bfa.png?1551975218"> 
+                      <a class="hoverable url" rel="contact" href$="/{{owner_id}}"><img class="photo" alt$="{{owner_id}}" src="https://cdn.dribbble.com/users/485324/avatars/mini/479e0aa76edbad47c51f159fd88e2bfa.png?1551975218"> 
                         <span class="display-name">{{owner_id}}</span></a>
                     </span>
                
@@ -121,7 +121,7 @@
           </a>  </li>
           
                   </ul>
-                <span class="toggle-fav">1,051</span>
+                <span class="toggle-fav">{{likeRate}}</span>
               </li>
               <li class="tool cmnt">
                 <a class="js-overlay-scroll-to-section" data-scroll-to-id="js-add-comment" href="/shots/11207721-Growing-App">
@@ -129,7 +129,7 @@
           <path d="M8.75 0.5H5.25C2.35025 0.5 0 2.85025 0 5.75C0 8.24783 1.74592 10.3344 4.08333 10.8652V14.5L8.16667 11H8.75C11.6497 11 14 8.64975 14 5.75C14 2.85025 11.6497 0.5 8.75 0.5Z"></path>
           </svg>
           
-          </a>      <span original-title="">44</span>
+          </a>      <span original-title="">{{clickRate}}</span>
               </li>
           </ul>
           
@@ -158,14 +158,17 @@
 
 		created:function() {
         this.dataManager = Polymer.dataManager;
-       
+        this.clickRate = Math.floor(Math.random() * 1000);   
+        this.likeRate = Math.floor(Math.random() * 100);   
     },
     ready(){
         console.log('Gid',this.gid);
-        let toolbar = document.createElement('dz-image-toolbar');
-        toolbar.host = this;
-        toolbar.gid = this.gid;
-        this.shadowRoot.querySelector('li').appendChild(toolbar);
+        if (Polymer.editMode==="admin"){
+          let toolbar = document.createElement('dz-image-toolbar');
+          toolbar.host = this;
+          toolbar.gid = this.gid;
+          this.shadowRoot.querySelector('li').appendChild(toolbar);
+        }
         this.dataManager.getGalleryRecord(this.gid).then(item=>{
             console.log('Item',item);
             this.item = item;

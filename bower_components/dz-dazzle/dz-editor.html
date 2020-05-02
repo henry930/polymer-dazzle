@@ -44,6 +44,7 @@
               return this.button;
           },
           handleClick: function (event) {
+                that.removeEditor();
           }
       });
     
@@ -64,7 +65,7 @@
           handleClick: function (event) {
             console.log('Anchor Selected',event);
             let text;
-            let selObj = this.getSelection(); 
+            let selObj = window.getSelection(); 
             console.log(selObj);
             text = selObj.toString();
             let newAnchor = document.createElement('a');
@@ -93,7 +94,26 @@
           },
           handleClick: function (event) {
              console.log('Youtube Selected');
-    
+
+            // check youtube define yet. may prompt a purchase dialog
+            let bool = customElements.get('dz-youtube');
+            if (typeof bool === 'undefined'){
+                alert('你還未購買/下載此功能，快到我們的元件管理拿一個吧。');
+                return;
+            }
+            else
+                console.log('Bool',bool);
+
+             let html = "<img src='http://dazzle.website/image/lgo.png' />";
+              // const img: HTMLImageElement= this.renderer.createElement('img');
+           
+              let selObj = window.getSelection(); 
+              console.log(selObj);
+              let selectedText = selObj.getRangeAt(0);
+              console.log('Selection Obj',selObj);
+              let img = document.createElement("dz-youtube");
+            //   img.src = 'http://dazzle.website/image/lgo.png' ;   
+              selectedText.insertNode(img);
     
           }
       });
