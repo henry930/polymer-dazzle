@@ -1,0 +1,719 @@
+<html><head>
+                <meta charset="utf-8">
+              <meta tid="dnamatch">
+              <meta uid="dnamatch">
+              <base href="/">
+              <meta export="true">
+              <link rel="stylesheet" href="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.0/styles.css">
+              <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <style>
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    background: white;
+    display: block;
+}
+.box {
+    width: 90%;
+    min-height: 600px;
+    border: 2px solid #8DCCCE;
+    position: relative;
+    margin: 0 auto;
+}
+a:hover {
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+.box a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #8DCCCE;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: block;
+    width:65px;
+}
+.box h3 {
+    font-size: 30px;
+    color: #8DCCCE;
+}
+.bg_box {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    background-color: #8DCCCE;
+}
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    /* background-color: white; */
+    display: block;
+    background: url(files/icon1.png) center center no-repeat;
+    background-color: white;
+}
+
+</style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- This is Squarespace. --><!-- goldfish-prism-x8pe -->
+<base href="">
+<meta charset="utf-8">
+<title>DNA Perfect match</title>
+<link rel="canonical" href="http://www.dnaperfectmatch.com">
+<meta property="og:site_name" content="DNA Perfect Match">
+<meta property="og:title" content="DNA Perfect Match">
+<meta property="og:url" content="http://www.dnaperfectmatch.com">
+<meta property="og:type" content="website">
+<meta property="og:description" content="DNA Perfect Match.....">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="1141">
+<meta itemprop="name" content="DNA Perfect Matchg">
+<meta itemprop="url" content="http://www.dnaperfectmatch.com">
+<meta itemprop="description" content="">
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display:700,700i,400i,400,900i,900|Source+Sans+Pro:700,700i,600i,600,400i,400">
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-99cbf2b7ae19fdfe882af-min.en-US.js" defer=""></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//assets.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-48e2f74ac4b3bcdf2c81c-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-52bdd87acccf92a19703e60e09c654bd-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-d01f30740c50b3a0d768d-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-342036262b204974aa269-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-ce3df506bf0689760f5a6-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-20012856ae6600a2bcaa7-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-1637eb4ee93bed59528921026e024bf4-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-ed118d04ebd7eb7d6f645-min.en-US.js"},"squarespace-commerce-cart":{"js":"//assets.squarespace.com/universal/scripts-compressed/commerce-cart-265c550a71ebe6f89c156-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-afeb96ba160fb642a2d98c892a956065-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-23425becf7a9b925176ea-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-a5429bd47be36ea98af1d-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-b96b2c35971262cca8b59-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-d21f3e517c32f4caba9f220beea0666d-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-f2c0c0cf614b40bf8ba71-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-e23ee315df466f1dba9ec-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-5a660e03e667b16c7a076-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-4725f00d98ee2610ca950-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-e984c5797664760d617b07bce15392a1-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-dd14a35cf853065b7499e-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-3fa8fd4df0755e7a7878e60166ca3d61-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-757476e54766a5c8d9f47-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-828c2fbae302bd3e4fe16-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-35101a00e9b514fc4c4a9-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-207da8872118254c0a795bf9b187c205-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-b6522369b6f5c4deb66f5-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-1a67565ee2cf1c6597226-min.en-US.js"},"squarespace-share-buttons":{"js":"//assets.squarespace.com/universal/scripts-compressed/share-buttons-3cfd2c452cad711b0b920-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-9ef41bf7ba753d65ec1acf18e093b88a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-9c531dfb113ab68e593bd-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-bf7788a87c794b73afd9d5c49f72f4f3-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-fbcf678e1f23c289c2dfc-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-bf55213cb7acea6972f0f-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-68df56a8135961401cbd590171d6b04a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-1bdf02a9726764521ce6d-min.en-US.js"}},"pageType":1,"website":{"id":"5b9c22899772ae0fa4d19c71","identifier":"goldfish-prism-x8pe","websiteType":1,"contentModifiedOn":1541025086250,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-18000000,"timeZoneOffset":-18000000,"timeZoneAbbr":"EST","siteTitle":"Amy Simpson Consulting","fullSiteTitle":"Amy Simpson Consulting","siteTagLine":"Projects With Purpose","siteDescription":"<p>Amy Simpson Consulting is a boutique consulting firm for non profits and small businesses. I bring over 30 years of professional and volunteer experience working on both small and large scale projects, developing solutions to operational challenges, and helping organizations grow.</p>","location":{"addressLine1":"","addressLine2":"","addressCountry":""},"logoImageId":"5bc4dc6471c10bb5b2868cfe","socialLogoImageId":"5bc4dc770d9297d80ad80d33","shareButtonOptions":{"6":true,"3":true,"2":true,"8":true,"7":true,"4":true,"1":true},"logoImageUrl":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","socialLogoImageUrl":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc770d9297d80ad80d33/1541025086250/","authenticUrl":"https://www.amycsimpson.com","internalUrl":"https://goldfish-prism-x8pe.squarespace.com","baseUrl":"https://www.amycsimpson.com","primaryDomain":"www.amycsimpson.com","sslSetting":3,"isHstsEnabled":false,"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"0e608e1d5346c141785edfdd41604da093246456c7f40b52f5a6a405ceae7aa0","showOwnerLogin":false},"websiteSettings":{"id":"5b9c22899772ae0fa4d19c73","websiteId":"5b9c22899772ae0fa4d19c71","type":"Business","subjects":[],"country":"US","state":"FL","simpleLikingEnabled":true,"mobileInfoBarSettings":{"style":1,"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"contactPhoneNumber":"5617150148","businessHours":{"monday":{"text":"","ranges":[{}]},"tuesday":{"text":"","ranges":[{}]},"wednesday":{"text":"","ranges":[{}]},"thursday":{"text":"","ranges":[{}]},"friday":{"text":"","ranges":[{}]},"saturday":{"text":"","ranges":[{}]},"sunday":{"text":"","ranges":[{}]}},"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"contactLocation":{"addressLine1":"17493 V\u00EDa Capri","addressLine2":"Boca Raton, FL, 33496","addressCountry":"United States"},"businessName":"Amy Simpson Consulting","sameAsRetailLocation":false,"businessId":"","merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","soldOutVariantsDropdownDisabled":false},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"trialAssistantEnabled":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":""},"websiteCloneable":false,"collection":{"title":"Home","id":"5bc390104192027cad784cba","fullUrl":"/","type":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","tweak-blog-list-columns":"3","tweak-blog-list-item-image-aspect-ratio-grid":"2:3 Standard (Vertical)","tweak-blog-list-item-image-aspect-ratio-stacked":"1:1 Square","tweak-blog-list-item-image-show":"true","tweak-blog-list-spacing":"100px","tweak-blog-list-style":"Stacked","tweak-footer-layout":"Stacked","tweak-header-bottom-overlay-on-index-gallery":"false","tweak-index-gallery-apply-bottom-spacing":"true","tweak-index-gallery-autoplay-duration":"2","tweak-index-gallery-autoplay-enable":"true","tweak-index-gallery-fixed-height":"true","tweak-index-gallery-height":"100vh","tweak-index-gallery-indicators":"Lines","tweak-index-gallery-layout":"Packed","tweak-index-gallery-transition":"Fade","tweak-index-gallery-transition-duration":"500","tweak-index-nav-position":"Right","tweak-index-page-apply-bottom-spacing":"false","tweak-index-page-fullscreen":"None","tweak-index-page-min-height":"100vh","tweak-mobile-breakpoint":"640px","tweak-overlay-parallax-enabled":"false","tweak-overlay-parallax-new-math":"false","tweak-product-item-image-zoom-factor":"1.5","tweak-product-list-item-hover-behavior":"Fade","tweak-product-list-items-per-row":"3","tweak-related-products-items-per-row":"3","tweak-related-products-title-spacing":"50px","tweak-site-ajax-loading-enable":"false","tweak-site-border-show":"false","tweak-site-border-width":"6px"},"templateId":"55f0aac0e4b0f0a5b7e0b22e","templateVersion":"7","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","betaFeatureFlags":["ORDERS-SERVICE-check-digital-good-access-with-service","ORDERS-SERVICE-reset-digital-goods-access-with-service","dg_downloads_from_fastly","generic_iframe_loader_for_campaigns","donations_customer_accounts","product-retriever-v2-enabled","domain_registration_via_registrar_service","domain_locking_via_registrar_service","domain_deletion_via_registrar_service","domain_info_via_registrar_service","content_item_settings","seven_one_image_overlay_opacity","commerce_restock_notifications","commerce_bulk_manager","newsletter_block_captcha","new_billing_system","gallery_settings_71","commerce_onboarding_wizard"],"yuiEliminationExperimentList":[{"name":"statsMigrationJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"ContributionConfirmed-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"TextPusher-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MenuItemWithProgress-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"billingNewsletters-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"imageProcJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"QuantityChangePreview-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CompositeModel-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"HasPusherMixin-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"INACTIVE"},{"name":"ProviderList-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MediaTracker-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"pushJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"internal-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"BillingPanel-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"PopupOverlayEditor-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CoverPagePicker-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"}],"impersonatedSession":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.amycsimpson.com/home?format=rss">
+<script type="application/ld+json">{"url":"https://www.amycsimpson.com","name":"Amy Simpson Consulting","description":"<p>Amy Simpson Consulting is a boutique consulting firm for non profits and small businesses. I bring over 30 years of professional and volunteer experience working on both small and large scale projects, developing solutions to operational challenges, and helping organizations grow.</p>","image":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","@context":"http://schema.org","@type":"WebSite"}</script><script type="application/ld+json">{"legalName":"Amy Simpson Consulting","address":"","email":"amysimpson223@gmail.com","telephone":"5617150148","sameAs":[],"@context":"http://schema.org","@type":"Organization"}</script><script type="application/ld+json">{"address":"17493 V\u00EDa Capri\nBoca Raton, FL, 33496\nUnited States","image":"https://static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","name":"Amy Simpson Consulting","openingHours":", , , , , , ","@context":"http://schema.org","@type":"LocalBusiness"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="css/site.css?&amp;filterFeatures=false"><!-- <![endif]-->
+<script>Static.COOKIE_BANNER_CAPABLE = true;</script><style>
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    background: white;
+    display: block;
+}
+.box {
+    width: 90%;
+    min-height: 600px;
+    border: 2px solid #8DCCCE;
+    position: relative;
+    margin: 0 auto;
+}
+a:hover {
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+.box a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #8DCCCE;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: block;
+    width:65px;
+}
+.box h3 {
+    font-size: 30px;
+    color: #8DCCCE;
+}
+.bg_box {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    background-color: #8DCCCE;
+}
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    /* background-color: white; */
+    display: block;
+    background: url(files/icon1.png) center center no-repeat;
+    background-color: white;
+}
+
+</style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- This is Squarespace. --><!-- goldfish-prism-x8pe -->
+<base href="">
+<meta charset="utf-8">
+<title>DNA Perfect match</title>
+<link rel="canonical" href="http://www.dnaperfectmatch.com">
+<meta property="og:site_name" content="DNA Perfect Match">
+<meta property="og:title" content="DNA Perfect Match">
+<meta property="og:url" content="http://www.dnaperfectmatch.com">
+<meta property="og:type" content="website">
+<meta property="og:description" content="DNA Perfect Match.....">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="1141">
+<meta itemprop="name" content="DNA Perfect Matchg">
+<meta itemprop="url" content="http://www.dnaperfectmatch.com">
+<meta itemprop="description" content="">
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display:700,700i,400i,400,900i,900|Source+Sans+Pro:700,700i,600i,600,400i,400">
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-99cbf2b7ae19fdfe882af-min.en-US.js" defer=""></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//assets.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-48e2f74ac4b3bcdf2c81c-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-52bdd87acccf92a19703e60e09c654bd-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-d01f30740c50b3a0d768d-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-342036262b204974aa269-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-ce3df506bf0689760f5a6-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-20012856ae6600a2bcaa7-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-1637eb4ee93bed59528921026e024bf4-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-ed118d04ebd7eb7d6f645-min.en-US.js"},"squarespace-commerce-cart":{"js":"//assets.squarespace.com/universal/scripts-compressed/commerce-cart-265c550a71ebe6f89c156-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-afeb96ba160fb642a2d98c892a956065-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-23425becf7a9b925176ea-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-a5429bd47be36ea98af1d-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-b96b2c35971262cca8b59-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-d21f3e517c32f4caba9f220beea0666d-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-f2c0c0cf614b40bf8ba71-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-e23ee315df466f1dba9ec-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-5a660e03e667b16c7a076-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-4725f00d98ee2610ca950-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-e984c5797664760d617b07bce15392a1-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-dd14a35cf853065b7499e-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-3fa8fd4df0755e7a7878e60166ca3d61-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-757476e54766a5c8d9f47-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-828c2fbae302bd3e4fe16-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-35101a00e9b514fc4c4a9-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-207da8872118254c0a795bf9b187c205-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-b6522369b6f5c4deb66f5-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-1a67565ee2cf1c6597226-min.en-US.js"},"squarespace-share-buttons":{"js":"//assets.squarespace.com/universal/scripts-compressed/share-buttons-3cfd2c452cad711b0b920-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-9ef41bf7ba753d65ec1acf18e093b88a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-9c531dfb113ab68e593bd-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-bf7788a87c794b73afd9d5c49f72f4f3-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-fbcf678e1f23c289c2dfc-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-bf55213cb7acea6972f0f-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-68df56a8135961401cbd590171d6b04a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-1bdf02a9726764521ce6d-min.en-US.js"}},"pageType":1,"website":{"id":"5b9c22899772ae0fa4d19c71","identifier":"goldfish-prism-x8pe","websiteType":1,"contentModifiedOn":1541025086250,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-18000000,"timeZoneOffset":-18000000,"timeZoneAbbr":"EST","siteTitle":"Amy Simpson Consulting","fullSiteTitle":"Amy Simpson Consulting","siteTagLine":"Projects With Purpose","siteDescription":"<p>Amy Simpson Consulting is a boutique consulting firm for non profits and small businesses. I bring over 30 years of professional and volunteer experience working on both small and large scale projects, developing solutions to operational challenges, and helping organizations grow.</p>","location":{"addressLine1":"","addressLine2":"","addressCountry":""},"logoImageId":"5bc4dc6471c10bb5b2868cfe","socialLogoImageId":"5bc4dc770d9297d80ad80d33","shareButtonOptions":{"6":true,"3":true,"2":true,"8":true,"7":true,"4":true,"1":true},"logoImageUrl":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","socialLogoImageUrl":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc770d9297d80ad80d33/1541025086250/","authenticUrl":"https://www.amycsimpson.com","internalUrl":"https://goldfish-prism-x8pe.squarespace.com","baseUrl":"https://www.amycsimpson.com","primaryDomain":"www.amycsimpson.com","sslSetting":3,"isHstsEnabled":false,"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"0e608e1d5346c141785edfdd41604da093246456c7f40b52f5a6a405ceae7aa0","showOwnerLogin":false},"websiteSettings":{"id":"5b9c22899772ae0fa4d19c73","websiteId":"5b9c22899772ae0fa4d19c71","type":"Business","subjects":[],"country":"US","state":"FL","simpleLikingEnabled":true,"mobileInfoBarSettings":{"style":1,"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"contactPhoneNumber":"5617150148","businessHours":{"monday":{"text":"","ranges":[{}]},"tuesday":{"text":"","ranges":[{}]},"wednesday":{"text":"","ranges":[{}]},"thursday":{"text":"","ranges":[{}]},"friday":{"text":"","ranges":[{}]},"saturday":{"text":"","ranges":[{}]},"sunday":{"text":"","ranges":[{}]}},"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"contactLocation":{"addressLine1":"17493 V\u00EDa Capri","addressLine2":"Boca Raton, FL, 33496","addressCountry":"United States"},"businessName":"Amy Simpson Consulting","sameAsRetailLocation":false,"businessId":"","merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","soldOutVariantsDropdownDisabled":false},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"trialAssistantEnabled":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":""},"websiteCloneable":false,"collection":{"title":"Home","id":"5bc390104192027cad784cba","fullUrl":"/","type":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","tweak-blog-list-columns":"3","tweak-blog-list-item-image-aspect-ratio-grid":"2:3 Standard (Vertical)","tweak-blog-list-item-image-aspect-ratio-stacked":"1:1 Square","tweak-blog-list-item-image-show":"true","tweak-blog-list-spacing":"100px","tweak-blog-list-style":"Stacked","tweak-footer-layout":"Stacked","tweak-header-bottom-overlay-on-index-gallery":"false","tweak-index-gallery-apply-bottom-spacing":"true","tweak-index-gallery-autoplay-duration":"2","tweak-index-gallery-autoplay-enable":"true","tweak-index-gallery-fixed-height":"true","tweak-index-gallery-height":"100vh","tweak-index-gallery-indicators":"Lines","tweak-index-gallery-layout":"Packed","tweak-index-gallery-transition":"Fade","tweak-index-gallery-transition-duration":"500","tweak-index-nav-position":"Right","tweak-index-page-apply-bottom-spacing":"false","tweak-index-page-fullscreen":"None","tweak-index-page-min-height":"100vh","tweak-mobile-breakpoint":"640px","tweak-overlay-parallax-enabled":"false","tweak-overlay-parallax-new-math":"false","tweak-product-item-image-zoom-factor":"1.5","tweak-product-list-item-hover-behavior":"Fade","tweak-product-list-items-per-row":"3","tweak-related-products-items-per-row":"3","tweak-related-products-title-spacing":"50px","tweak-site-ajax-loading-enable":"false","tweak-site-border-show":"false","tweak-site-border-width":"6px"},"templateId":"55f0aac0e4b0f0a5b7e0b22e","templateVersion":"7","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","betaFeatureFlags":["ORDERS-SERVICE-check-digital-good-access-with-service","ORDERS-SERVICE-reset-digital-goods-access-with-service","dg_downloads_from_fastly","generic_iframe_loader_for_campaigns","donations_customer_accounts","product-retriever-v2-enabled","domain_registration_via_registrar_service","domain_locking_via_registrar_service","domain_deletion_via_registrar_service","domain_info_via_registrar_service","content_item_settings","seven_one_image_overlay_opacity","commerce_restock_notifications","commerce_bulk_manager","newsletter_block_captcha","new_billing_system","gallery_settings_71","commerce_onboarding_wizard"],"yuiEliminationExperimentList":[{"name":"statsMigrationJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"ContributionConfirmed-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"TextPusher-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MenuItemWithProgress-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"billingNewsletters-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"imageProcJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"QuantityChangePreview-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CompositeModel-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"HasPusherMixin-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"INACTIVE"},{"name":"ProviderList-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MediaTracker-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"pushJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"internal-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"BillingPanel-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"PopupOverlayEditor-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CoverPagePicker-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"}],"impersonatedSession":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.amycsimpson.com/home?format=rss">
+<script type="application/ld+json">{"url":"https://www.amycsimpson.com","name":"Amy Simpson Consulting","description":"<p>Amy Simpson Consulting is a boutique consulting firm for non profits and small businesses. I bring over 30 years of professional and volunteer experience working on both small and large scale projects, developing solutions to operational challenges, and helping organizations grow.</p>","image":"//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","@context":"http://schema.org","@type":"WebSite"}</script><script type="application/ld+json">{"legalName":"Amy Simpson Consulting","address":"","email":"amysimpson223@gmail.com","telephone":"5617150148","sameAs":[],"@context":"http://schema.org","@type":"Organization"}</script><script type="application/ld+json">{"address":"17493 V\u00EDa Capri\nBoca Raton, FL, 33496\nUnited States","image":"https://static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/","name":"Amy Simpson Consulting","openingHours":", , , , , , ","@context":"http://schema.org","@type":"LocalBusiness"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="css/site.css?&amp;filterFeatures=false"><!-- <![endif]-->
+<script>Static.COOKIE_BANNER_CAPABLE = true;</script><script type="text/javascript" src="https://d25k6mzsu7mq5l.cloudfront.net/component/dz-carousel.js" defer="" wc="" id="wc-dz-carousel"></script><script type="text/javascript" src="https://d25k6mzsu7mq5l.cloudfront.net/component/dz-hotkey.js" defer="" wc="" id="wc-dz-hotkey"></script><script type="text/javascript" src="https://d25k6mzsu7mq5l.cloudfront.net/component/dz-page-block.js" defer="" wc="" id="wc-dz-page-block"></script></head><body><dz-page><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style><style></style> <div id="collection-5bc390104192027cad784cba" class="tweak-social-icons-style-solid tweak-social-icons-shape-square tweak-site-width-option-full-width tweak-icon-weight-light   tweak-site-ajax-loading-bar-show ancillary-header-top-left-layout-horizontal ancillary-header-top-center-layout-stacked ancillary-header-top-right-layout-horizontal ancillary-header-bottom-left-layout-horizontal ancillary-header-bottom-center-layout-horizontal ancillary-header-bottom-right-layout-horizontal ancillary-header-branding-position-top-left ancillary-header-tagline-position-hide ancillary-header-primary-nav-position-top-right ancillary-header-secondary-nav-position-top-left ancillary-header-social-position-hide ancillary-header-search-position-hide ancillary-header-cart-position-hide ancillary-header-account-position-hide tweak-header-primary-nav-hover-style-active tweak-header-primary-nav-button-style-solid tweak-header-primary-nav-button-shape-square tweak-header-secondary-nav-inherit-styles tweak-header-secondary-nav-hover-style-spotlight tweak-header-secondary-nav-button-style-solid tweak-header-secondary-nav-button-shape-square tweak-header-search-style-underlined tweak-header-search-placeholder-show tweak-header-cart-style-cart tweak-header-account-style-text   tweak-index-nav-style-none tweak-index-nav-position-right tweak-index-nav-text-show tweak-index-page-fullscreen-none  tweak-index-page-scroll-indicator-none tweak-index-page-scroll-indicator-icon-arrow tweak-index-page-scroll-indicator-icon-weight-hairline  tweak-index-gallery-layout-packed tweak-index-gallery-spacing-sides-show tweak-index-gallery-spacing-top-bottom-show tweak-index-gallery-fixed-height tweak-index-gallery-apply-bottom-spacing tweak-index-gallery-hover-style-fade tweak-index-gallery-controls-small-arrows tweak-index-gallery-controls-icon-weight-hairline tweak-index-gallery-indicators-lines tweak-index-gallery-autoplay-enable tweak-index-gallery-transition-fade tweak-index-gallery-content-position-top-left tweak-index-gallery-content-text-alignment-center tweak-footer-show tweak-footer-layout-stacked tweak-footer-layout-columns-auto tweak-footer-stacked-alignment-center   tweak-mobile-bar-top-fixed ancillary-mobile-bar-branding-position-top-center ancillary-mobile-bar-menu-icon-position-top-right tweak-mobile-bar-menu-icon-hamburger ancillary-mobile-bar-search-icon-position-hide ancillary-mobile-bar-cart-position-hide tweak-mobile-bar-cart-style-cart ancillary-mobile-bar-account-position-hide tweak-mobile-bar-account-style-text tweak-mobile-overlay-slide-origin-left tweak-mobile-overlay-close-show  tweak-mobile-overlay-menu-primary-button-style-solid tweak-mobile-overlay-menu-primary-button-shape-square   tweak-mobile-overlay-menu-secondary-button-style-solid tweak-mobile-overlay-menu-secondary-button-shape-square tweak-quote-block-alignment-center  tweak-blog-meta-primary-category tweak-blog-meta-secondary-date tweak-blog-list-style-stacked  tweak-blog-list-alignment-center tweak-blog-list-item-image-show tweak-blog-list-item-image-aspect-ratio-grid-23-standard-vertical tweak-blog-list-item-image-aspect-ratio-stacked-11-square tweak-blog-list-item-title-show tweak-blog-list-item-excerpt-show tweak-blog-list-item-body-show tweak-blog-list-item-readmore-inline tweak-blog-list-item-meta-position-above-title tweak-blog-list-pagination-link-label-show  tweak-blog-list-pagination-link-icon-weight-light tweak-blog-item-alignment-center tweak-blog-item-meta-position-above-title tweak-blog-item-share-position-below-content  tweak-blog-item-pagination-link-label-show  tweak-blog-item-pagination-link-meta-hide tweak-blog-item-pagination-link-icon-weight-hairline   event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address     event-excerpts  event-item-back-link    gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   tweak-product-list-image-aspect-ratio-11-square tweak-product-list-item-hover-behavior-fade tweak-product-list-meta-position-overlay tweak-product-list-mobile-meta-position-under tweak-product-list-meta-alignment-under-center tweak-product-list-meta-alignment-overlay-center-center tweak-product-list-show-title  tweak-product-list-filter-display-top tweak-product-list-filter-alignment-center tweak-product-item-nav-show-pagination-only tweak-product-item-nav-pagination-style-previousnext tweak-product-item-nav-breadcrumb-alignment-left tweak-product-item-nav-pagination-alignment-left tweak-product-item-gallery-position-right tweak-product-item-gallery-design-stacked tweak-product-item-gallery-aspect-ratio-11-square tweak-product-item-gallery-thumbnail-alignment-left tweak-product-item-details-alignment-left tweak-product-item-details-show-title tweak-product-item-details-show-price tweak-product-item-details-show-excerpt tweak-product-item-details-excerpt-position-below-price  tweak-product-item-details-show-variants tweak-product-item-details-show-quantity tweak-product-item-details-options-style-square tweak-product-item-details-show-add-to-cart-button tweak-product-item-details-add-to-cart-button-style-outline tweak-product-item-details-add-to-cart-button-shape-rounded tweak-product-item-details-add-to-cart-button-padding-large tweak-product-item-image-zoom-enabled tweak-product-item-image-zoom-behavior-click tweak-product-item-lightbox-enabled tweak-related-products-image-aspect-ratio-11-square tweak-related-products-meta-alignment-under-center tweak-product-badge-style-none tweak-product-badge-position-top-right tweak-product-badge-inset-floating newsletter-style-custom hide-opentable-icons opentable-style-dark small-button-style-solid small-button-shape-rounded medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-rounded image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-outline button-corner-style-rounded tweak-product-quick-view-button-style-docked tweak-product-quick-view-button-position-center tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light tweak-share-buttons-style-icon-only tweak-share-buttons-icons-show    tweak-share-buttons-standard-background-color native-currency-code-usd collection-type-index collection-layout-default collection-5bc390104192027cad784cba homepage view-list mobile-style-available sqs-has-custom-cart has-logo-image has-tagline has-parallax-images has-parallax-images has-parallax-images has-primary-nav has-footer-nav" data-controller="HashManager, SiteLoader, MobileClassname">
+
+    <div class="Loader"></div>
+
+    <div class="Mobile" data-nc-base="mobile-bar" data-controller="AncillaryLayout">
+  <div class="Mobile-bar Mobile-bar--top" data-nc-group="top" data-controller="MobileOffset">
+
+    <div data-nc-container="top-left">
+      <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
+        
+          
+            <img src="//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/?format=1500w" alt="Amy Simpson Consulting" class="Mobile-bar-branding-logo">
+          
+        
+      </a>
+    </div>
+    <div data-nc-container="top-center"></div>
+    <div data-nc-container="top-right"></div>
+  </div>
+  <div class="Mobile-bar Mobile-bar--bottom" data-nc-group="bottom" data-controller="MobileOffset">
+    <div data-nc-container="bottom-left">
+      <button class="Mobile-bar-menu" data-nc-element="menu-icon" data-controller-overlay="menu" data-controller="MobileOverlayToggle">
+        <svg class="Icon Icon--hamburger" viewBox="0 0 24 18">
+          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--hotdog" viewBox="0 0 24 14">
+          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--plus" viewBox="0 0 20 20">
+          <use xlink:href="/assets/ui-icons.svg#plus-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#plus-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--dots-horizontal" viewBox="0 0 25 7">
+          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--dots-vertical" viewBox="0 0 7 25">
+          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--squares-horizontal" viewBox="0 0 25 7">
+          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--squares-vertical" viewBox="0 0 7 25">
+          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--odd" class="use--odd"></use>
+        </svg>
+      </button>
+    </div>
+    <div data-nc-container="bottom-center">
+      
+    </div>
+    <div data-nc-container="bottom-right">
+      
+      <a href="/search" class="Mobile-bar-search" data-nc-element="search-icon">
+        <svg class="Icon Icon--search" viewBox="0 0 20 20">
+          <use xlink:href="/assets/ui-icons.svg#search-icon"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="Mobile-overlay">
+    <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
+      <div class="Mobile-overlay-menu-main">
+        <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
+          
+  
+    
+      
+        
+          
+            <a href="/about" class="Mobile-overlay-nav-item">
+              About
+            </a>
+          
+        
+      
+    
+    
+  
+    
+      
+        
+          
+            <a href="/services" class="Mobile-overlay-nav-item">
+              Services
+            </a>
+          
+        
+      
+    
+    
+  
+    
+      
+        
+          <a href="/newsandtrends" class="Mobile-overlay-nav-item">
+            News and Trends
+          </a>
+        
+      
+    
+    
+  
+    
+      
+        
+          <a href="/contact" class="Mobile-overlay-nav-item">
+            Contact
+          </a>
+        
+      
+    
+    
+  
+
+        </nav>
+        <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
+          
+        </nav>
+      </div>
+      <div class="Mobile-overlay-folders" data-content-field="navigation">
+        
+  
+
+  
+
+  
+
+  
+
+        
+      </div>
+    </div>
+    <button class="Mobile-overlay-close" data-controller="MobileOverlayToggle">
+      <svg class="Icon Icon--close" viewBox="0 0 16 16">
+        <use xlink:href="/assets/ui-icons.svg#close-icon"></use>
+      </svg>
+    </button>
+    <div class="Mobile-overlay-back" data-controller="MobileOverlayToggle"></div>
+  </div>
+</div>
+
+
+    <div class="Parallax-host-outer">
+      <div class="Parallax-host" data-parallax-host="">
+        
+          
+            
+              
+              
+                
+                  <div class="Parallax-item" data-parallax-item="" data-parallax-id="5bc3f6479140b74027ba9bf7"></div>
+                
+              
+            
+              
+              
+                
+                  <div class="Parallax-item" data-parallax-item="" data-parallax-id="5bc3901e7817f7824c698ec8"></div>
+                
+              
+            
+              
+              
+                
+              
+            
+              
+              
+                
+                  <div class="Parallax-item" data-parallax-item="" data-parallax-id="5bc39028eef1a19cbd46e40b"></div>
+                
+              
+            
+          
+        
+      </div>
+    </div>
+
+    <div class="Site" data-nc-base="header" data-controller="AncillaryLayout">
+      <div class="sqs-announcement-bar-dropzone"></div>
+
+      <header class="Header Header--top">
+        <div class="Header-inner Header-inner--top" data-nc-group="top">
+          <div data-nc-container="top-left">
+
+            
+
+          <a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
+                
+                  
+                    <img src="http://dnamatch.dazzle.website/files/logo.png" class="Header-branding-logo">
+                  
+                
+              </a><nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav" data-content-field="navigation">
+                
+              </nav></div>
+          <div data-nc-container="top-center">
+            
+            
+          </div>
+          <div data-nc-container="top-right">
+
+            
+
+          <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
+                
+  <div class="Header-nav-inner">
+    <a href="about" class="Header-nav-item" data-test="template-nav">關於我們</a><a href="services" class="Header-nav-item" data-test="template-nav">專業服務</a>
+  <a href="news" class="Header-nav-item" data-test="template-nav">最新消息</a><a href="contact" class="Header-nav-item" data-test="template-nav">立即登記</a></div>
+
+              </nav></div>
+        </div>
+      </header>
+
+      <div class="Site-inner Site-inner--index" data-controller="HeaderOverlay">
+
+        <header class="Header Header--bottom Header--overlay">
+          <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
+            <div data-nc-container="bottom-left" style="display:block">
+              <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
+                
+  <div class="Header-nav-inner">
+    <a href="/about" class="Header-nav-item" data-test="template-nav">About</a><a href="/services" class="Header-nav-item" data-test="template-nav">Services</a><a href="/newsandtrends" class="Header-nav-item" data-test="template-nav">News and Trends</a><a href="/contact" class="Header-nav-item" data-test="template-nav">Contact</a>
+  </div>
+
+              </nav>
+            </div>
+            <div data-nc-container="bottom-center">
+
+              <a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
+                
+                  
+                    <img src="//static1.squarespace.com/static/5b9c22899772ae0fa4d19c71/t/5bc4dc6471c10bb5b2868cfe/1541025086250/?format=1500w" alt="Amy Simpson Consulting" class="Header-branding-logo">
+                  
+                
+              </a>
+              <div class="Header-tagline" data-nc-element="tagline">Projects With Purpose</div>
+
+            </div>
+            <div data-nc-container="bottom-right">
+
+              <nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav" data-content-field="navigation">
+                
+              </nav>
+
+            </div>
+          </div>
+        </header>
+
+        <div class="Content-outer">
+          
+
+          <main class="Index" data-collection-id="5bc390104192027cad784cba" data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation">
+            
+              <section id="mainheader" class="Index-page Index-page--has-image" data-parallax-original-element="" data-collection-id="5bc3f6479140b74027ba9bf7" data-parallax-id="5bc3f6479140b74027ba9bf7" data-edit-main-image="Background">
+        
+          
+        
+        <div class="Index-page-content  sqs-alternate-block-style-container" style="background-image: url(files/highlight.png);background-size: 100%;animation: anim-opacity-full 480ms ease-out;background-repeat: no-repeat;">
+          <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1539643063931" id="page-5bc3f6479140b74027ba9bf7"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-5bc3f6479140b74027ba9bf8"><div class="sqs-block-content"><p style="white-space: pre-wrap;">&nbsp;</p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><h1 data-rte-preserve-empty="true" style="text-align: center; white-space: pre-wrap;"></h1><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><p><br></p><p><br></p><p><br></p><p><br></p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p><h1 data-rte-preserve-empty="true" style="text-align: center;white-space: pre-wrap;font-family: Arial;font-size: 60px;">Find TRUE LOVE in your DNA</h1></div></div></div></div></div>
+        </div>
+        
+          
+            
+          
+        
+      </section>
+
+    
+
+  
+
+    
+
+      <section id="introduction" class="Index-page Index-page--has-image" data-parallax-original-element="" data-collection-id="5bc3901e7817f7824c698ec8" data-parallax-id="5bc3901e7817f7824c698ec8" data-edit-main-image="Background">
+        
+        <div class="Index-page-content  sqs-alternate-block-style-container">
+          <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1541025086249" id="page-5bc3901e7817f7824c698ec8"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_2_1473964568934_12012"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1539615066392_51383"><div class="sqs-block-content"><h1 style="text-align: center; white-space: pre-wrap;">《緣來自基因》</h1></div></div><div class="row sqs-row"><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539623344867_11056"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-8 span-8"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1539623344867_10399"><div class="sqs-block-content"><h2 style="text-align: center; white-space: pre-wrap;"><div>基因配對測試是以科學方法協助單身男女覓得合適的對象，</div><div>原理在於一組影響免疫系統、人體氣味、以及繁殖意欲的基因片段，</div><div>研究發現人類會被與自己該組基因不同的異性所吸引。</div><div>簡單而言，該基因愈不同，其「基因配對率」愈高，雙方亦會較為互相吸引。</div></h2></div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539623344867_11966"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1539611589204_18284"><div class="sqs-block-content"><div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium">
+	<a href="/about" class="sqs-block-button-element--medium sqs-block-button-element">了解更多</a>
+</div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_2_1473964568934_13223"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
+        </div>
+        
+          
+            <figure class="Index-page-image" data-parallax-image-wrapper="">
+              
+  <img data-src="https://images.squarespace-cdn.com/content/v1/5b9c22899772ae0fa4d19c71/1539624496327-FIY41PK9CGHV9RRGX09A/ke17ZwdGBToddI8pDm48kFQQgP34qnCpeHaeAOzTt7pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICHnXC1b9smDvYLPdL-DS7U1pkhCtl83kemXd5r3C5ngKMshLAGzx4R3EDFOm1kBS/4.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5b9c22899772ae0fa4d19c71/1539624496327-FIY41PK9CGHV9RRGX09A/ke17ZwdGBToddI8pDm48kFQQgP34qnCpeHaeAOzTt7pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICHnXC1b9smDvYLPdL-DS7U1pkhCtl83kemXd5r3C5ngKMshLAGzx4R3EDFOm1kBS/4.jpg" data-image-dimensions="800x800" data-image-focal-point="0.5,0.5" alt="4.jpg" data-load="false">
+
+            </figure>
+          
+        
+      </section>
+
+    
+
+  
+
+    
+
+      <section id="blocks-1" class="Index-page" data-collection-id="5bc49706e5e5f08331c24314" data-parallax-id="5bc49706e5e5f08331c24314" data-edit-main-image="Background">
+        
+        <div class="Index-page-content ">
+          <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1540994438710" id="page-5bc49706e5e5f08331c24314"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539610419839_16198"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1539615066392_41296"><div class="sqs-block-content"><h1 style="text-align: center; white-space: pre-wrap;">專業服務</h1></div></div><div class="row sqs-row"><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539624618930_45862"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-8 span-8"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1539624618930_44512"><div class="sqs-block-content"><h2 style="text-align: center; white-space: pre-wrap;">透過進行基因配對，配合專業的評估及跟進服務，幫助客戶找到合適的伴侶。</h2></div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539624618930_47664"><div class="sqs-block-content">&nbsp;</div></div></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="box"><div class="bg_box">
+    
+</div>
+
+<div class="round_border">
+
+        
+    
+    </div>
+    
+    <div class="detail">
+<h3 style="text-align: center;white-space: pre-wrap;text-decoration: none;">愛情基因分析</h3><a>了解更多</a></div>
+    
+</div></div><div class="col sqs-col-4 span-4"><div class="box"><div class="bg_box">
+    
+</div>
+
+<div class="round_border" style="
+    background-image: url(files/icon2.png);
+">
+
+        
+    
+    </div>
+    
+    <div class="detail">
+<h3 style="text-align: center;white-space: pre-wrap;text-decoration: none;">感情狀況評估</h3><a>了解更多</a></div>
+    
+</div><a href="#">
+          
+            
+          
+            </a></div><div class="col sqs-col-4 span-4"><div class="box"><div class="bg_box">
+    
+</div>
+
+<div class="round_border" style="
+    background-image: url(files/icon3.png);
+">
+
+        
+    
+    </div>
+    
+    <div class="detail">
+<h3 style="text-align: center;white-space: pre-wrap;text-decoration: none;">情侶配對及約會</h3><a>了解更多</a></div>
+    
+</div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1539612156104_13100"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
+        </div>
+        
+          
+        
+      </section>
+
+    
+
+  
+
+    
+
+      <section id="our-mission" class="Index-page Index-page--has-image" data-parallax-original-element="" data-collection-id="5bc39028eef1a19cbd46e40b" data-parallax-id="5bc39028eef1a19cbd46e40b" data-edit-main-image="Background" style="
+    background-image: url(files/unnamed.jpg);
+    background-size: 100%;
+    min-height: 400px;
+    background-position: 0px;
+">
+        
+        <div class="row sqs-row"><div class="col sqs-col-6 span-6"><h2 style="
+    font-size: 50px;
+    text-align: center;
+    line-height: 400px;
+    color: #868686;
+">最新消息</h2></div><div class="col sqs-col-6 span-6" style="
+    color: #868686;
+    padding-top: 80px;
+"><ul style="
+    list-style: none;
+">
+    <li>
+        <div class="date">15/2/2020</div>
+        <div class="desc"><a href="#">【「留言為你牽紅線」有獎遊戲結果公佈】</a></div>
+    
+</li><li>
+        <div class="date">15/2/2020</div>
+        <div class="desc"><a href="#">【「留言為你牽紅線」有獎遊戲結果公佈】</a></div>
+    
+</li><li>
+        <div class="date">15/2/2020</div>
+        <div class="desc"><a href="#">【「留言為你牽紅線」有獎遊戲結果公佈】</a></div>
+    
+</li><li>
+        <div class="date">15/2/2020</div>
+        <div class="desc"><a href="#">【「留言為你牽紅線」有獎遊戲結果公佈】</a></div>
+    
+</li></ul></div></div>
+        
+          
+            
+          
+        
+      </section>
+
+    
+
+  
+
+  
+    <nav class="Index-nav">
+      <div class="Index-nav-inner">
+        
+          <a href="#mainheader" class="Index-nav-item active">
+            <div class="Index-nav-indicator"></div>
+            <div class="Index-nav-text"><span>Header</span></div>
+          </a>
+        
+          <a href="#introduction" class="Index-nav-item">
+            <div class="Index-nav-indicator"></div>
+            <div class="Index-nav-text"><span>Introduction</span></div>
+          </a>
+        
+          <a href="#blocks-1" class="Index-nav-item">
+            <div class="Index-nav-indicator"></div>
+            <div class="Index-nav-text"><span>Blocks</span></div>
+          </a>
+        
+          <a href="#our-mission" class="Index-nav-item">
+            <div class="Index-nav-indicator"></div>
+            <div class="Index-nav-text"><span>Our Mission</span></div>
+          </a>
+        
+      </div>
+    </nav>
+            
+          </main>
+
+        </div>
+      </div>
+
+      <footer class="Footer" role="contentinfo" data-controller="FooterBreakpoints">
+
+  <div class="Footer-inner clear">
+
+    <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--top sqs-alternate-block-style-container empty" data-layout-label="Footer Top Blocks" data-type="block-field" data-updated-on="1539630898084" id="footerBlocksTop"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+
+    <div class="Footer-middle">
+      <div class="Footer-business">
+
+        
+          <div class="Footer-business-info">
+            
+              
+                
+                
+                
+                
+              
+            
+            
+              <a href="tel:5617150148" rel="tel" class="Footer-business-info-item Footer-business-info-item--phone">5617150148</a>
+              <a href="mailto:amysimpson223@gmail.com" title="amysimpson223@gmail.com" target="_blank" class="Footer-business-info-item Footer-business-info-item--email">amysimpson223@gmail.com</a>
+            
+          </div>
+        
+
+        
+          
+            <div class="Footer-business-hours">
+              <div class="Footer-business-hours-heading">Hours</div>
+              
+              
+              
+              
+              
+              
+              
+            </div>
+          
+        
+
+      </div>
+
+      <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container empty" data-layout-label="Footer Middle Blocks" data-type="block-field" data-updated-on="1452386857557" id="footerBlocksMiddle"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+
+      
+  
+
+    </div>
+
+    <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--bottom sqs-alternate-block-style-container" data-layout-label="Footer Bottom Blocks" data-type="block-field" data-updated-on="1541018425615" id="footerBlocksBottom"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="46.400000000000006" data-block-type="5" id="block-yui_3_17_2_1_1539630808132_4543"><div class="sqs-block-content">
+  
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none">
+      
+        <div class="intrinsic" style="max-width:500.0px;">
+          
+            <img class="thumb-image" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bc51014b208fcc8374e8afd" data-type="image" src="http://dnamatch.dazzle.website/files/logo.png" style="
+    width: 100px;
+    margin: 0 auto;
+">
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_5_1473967068780_10590"><div class="sqs-block-content"><p style="text-align: center; white-space: pre-wrap;"><em>服務及免責條款 Copyright@ DNA Perfect Match All Rights Reserved</em></p></div></div></div></div></div>
+
+  </div>
+
+</footer>
+
+
+    </div>
+    </div></dz-page><dz-body>  <script src="https://static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/335/scripts/site-bundle.js" type="text/javascript"></script>
+
+    <script type="text/javascript" data-sqs-type="imageloader-bootstrapper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap({}, document); }})();</script><script>Squarespace.afterBodyLoad(Y);</script><link rel="stylesheet" type="text/css" href="css/style.css?&amp;filterFeatures=false">
+</dz-body>
+            <dazzle-root></dazzle-root>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/runtime-es2015.js" type="module"></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/polyfills-es2015.js" type="module"></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/runtime-es5.js" nomodule=""></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/polyfills-es5.js" nomodule=""></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/scripts.js"></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/main-es2015.js" type="module"></script>
+            <script src="https://d25k6mzsu7mq5l.cloudfront.net/cdn7.2/main-es5.js" nomodule=""></script>
+        </body></html>

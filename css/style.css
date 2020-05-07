@@ -1,0 +1,136 @@
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    background: white;
+    display: block;
+}
+svg {
+    width: 40px;
+}
+
+.box {
+    width: 90%;
+    min-height: 600px;
+    border: 2px solid #8DCCCE;
+    position: relative;
+    margin: 0 auto;
+}
+a:hover {
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+.box a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #8DCCCE;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: block;
+    width:65px;
+}
+.box h3 {
+    font-size: 30px;
+    color: #8DCCCE;
+}
+.bg_box {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    background-color: #8DCCCE;
+}
+.round_border {
+    width: 250px;
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #8DCCCE;
+    /* top: 80px; */
+    margin: 80px auto;
+    /* background-color: white; */
+    display: block;
+    background: url(files/icon1.png) center center no-repeat;
+    background-color: white;
+}
+h1.cyan {
+    color: #5BC6CE;
+    text-align: center;
+}
+#introduction #element-94 img {
+    width:30px;
+    height:30px;
+}
+#introduction, #introduction p, #introduction div {
+    font-size:15px;
+}
+
+.even .pro-box {
+    border: 3px solid #8dccce;
+    padding: 20px;
+}
+
+.pro-box {
+    height: 180px;
+    padding-top: 40px !important;
+}
+.pro-box h2 {
+    margin-top: 16px;
+}
+.odd .pro-box {
+    border: 3px solid white;
+    padding: 20px;
+}
+label[part="label"]{
+    top:-5px;
+}
+p.cyan {
+    color: #808080;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+}
+
+.Content-outer {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+section h2 img {
+    width: 70%;
+    margin: 20px 10px;
+}
+
+.Content-outer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+section h2{
+    text-align:center;
+    font-size:30px;
+    margin-top:40px;
+}
+section {
+    padding-top:0px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 35px;
+    /* width: 70%; */
+    text-align: center;
+}
+

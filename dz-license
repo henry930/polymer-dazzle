@@ -1,9 +1,9 @@
 {
     "uid":"gallery",
     "tid":"gallery",
-    "userBucket":"dnamatch.dazzle.website",
+    "userBucket":"gallery.dazzle.website",
     "expiryDate":"Mar 25 2021",
     "userType":"professional",
     "token":"",
-    "local":"true"
+	"local":"true"
 }
