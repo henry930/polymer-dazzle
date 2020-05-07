@@ -1,9 +1,9 @@
 {
-    "uid":"gallery",
-    "tid":"gallery",
-    "userBucket":"gallery.dazzle.website",
+    "uid":"ccpy",
+    "tid":"ccpy",
+    "userBucket":"ccpy.dazzle.website",
     "expiryDate":"Mar 25 2021",
-    "userType":"professional",
+    "userType":"normal",
     "token":"",
 	"local":"true"
 }
