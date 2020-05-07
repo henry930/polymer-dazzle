@@ -63,6 +63,32 @@
         this.previewMode = false;
         this.mode = 'context';
         this.fileManager = Polymer.fileManager;
+        this.menuList = {
+            'IMG':[{
+                            'label':'編輯',
+                            'event':'img-edit'
+                        },{
+                          'label':'圖片庫',
+                          'event':'img-stock'
+                        },
+                        {
+                          'label':'編輯連結',
+                          'event':'img-link'
+                        }
+                        ],
+            'A':[{
+                            'label':'編輯',
+                            'event':'img-edit'
+                        },{
+                          'label':'圖片庫',
+                          'event':'img-stock'
+                        },
+                        {
+                          'label':'編輯連結',
+                          'event':'img-link'
+                        }
+                        ]
+            };
 
 		},
 		ready(){
@@ -70,8 +96,14 @@
 			this.eventListener();
 		},
     loadMenu(){
+      let shadow = this.shadowRoot;
+        shadow.querySelectorAll('img').forEach(item=>{
+          item.menu = this.menuList['IMG'];
+        });
 
-
+        shadow.querySelectorAll('a').forEach(item=>{
+          item.menu = this.menuList['A'];
+        });
     },
 		contextRender(menu){
 			let that = this;
@@ -93,6 +125,7 @@
         console.log('Event',item);
 
 				item.addEventListener('click',e=>{
+          that.mode = 'edit';
           Polymer._curElm = that.curElm;
           console.log('Event',Polymer._curElm,ele.event);
 
@@ -128,6 +161,7 @@
       closeDialog(){
         const shadow = this.shadowRoot;
         const dialog = shadow.querySelector('vaadin-dialog');
+        this.mode = "context";
         dialog.opened = false;
       },
       eventListener(){
@@ -210,8 +244,10 @@
 
 
         });
+
               shadow.addEventListener('contextmenu',e=>{
                   let tagName = that.curElm.tagName;
+                  console.log('Menu',that.curElm,that.curElm.menu);
                   let menu = [{
                             'label':'編輯',
                             'event':'img-edit'
@@ -287,7 +323,7 @@
 
               document.addEventListener('keydown',e=>{
                   console.log('Key Down',e);
-                  if (!that.edit) {
+                  if (that.mode==="context") {
                     switch (e.code){
                         case 'Escape':
                           switch (that.mode){
@@ -432,6 +468,14 @@
             that.popup('dz-dazzle','dz-link-manage','800px','580px');
 
 
+            this.curElm.addEventListener('link-selected',e=>{
+             
+                  let href = e.detail['selected'];
+                  this.curElm.setAttribute('href',href);
+                  console.log('Linked selected',href,this.curElm,this.curElm.getAttribute('href'));
+
+                  this.closeDialog();
+            });
         });
         document.addEventListener('img-stock',e=>{
             // document.dispatchEvent(new CustomEvent('custom-popup', { detail: {'component':'dz-file-management','size':'big'} }));

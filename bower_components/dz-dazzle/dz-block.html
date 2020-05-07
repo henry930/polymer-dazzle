@@ -33,7 +33,7 @@
 			// });
 			// console.log('Start Create','template/'+Polymer.tid+'/_dz-block/'+this.block+'/html');
 
-			Polymer.getUserDataContent('template/'+Polymer.tid+'/_dz-block/'+this.block+'/html').then(html=>{
+			Polymer.getUserDataContent('template/'+Polymer.tid+'/_dz-block/'+this.block+'/html?id='+new Date().getTime()).then(html=>{
 				console.log('Start Create',html);
 
 				that.innerHTML = html;
@@ -46,7 +46,7 @@
 			document.addEventListener('save',e=>{
 				console.log('Block Save');
 				let content = that.innerHTML;
-				Polymer.fileManager.saveUserData('template/'+this.tid+'/_dz-block/'+this.block+'/html',content);
+				Polymer.fileManager.saveUserData('template/'+Polymer.tid+'/_dz-block/'+this.block+'/html',content);
 			});
 		},
 	});

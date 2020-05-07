@@ -45,8 +45,8 @@
 			 }
 		 </style>   
 				<i class="fa fa-check-square-o" aria-hidden="true" on-click="_select"></i>
-				<i id="dz-remove" class="fa fa-ban" aria-hidden="true"></i>
-				<i id="dz-edit" class="fa fa-pencil-square-o" aria-hidden="true"></i>
+				<i id="dz-remove" class="fa fa-ban" aria-hidden="true" on-click="_remove"></i>
+				<i id="dz-edit" class="fa fa-pencil-square-o" aria-hidden="true" on-click="_edit"></i>
 				<vaadin-dialog aria-label="big" id="imgEdit"  theme="error"></vaadin-dialog>
 	</template>
 </dom-module>
@@ -99,6 +99,17 @@
 			});
 
 
+
+		},
+		_remove(){
+			
+			let params = {
+				gid: this.gid,
+				host: this.host
+			};
+			console.log('Remove',params);
+
+			this.host.dispatchEvent(new CustomEvent('item-remove', {'detail':params}));
 
 		},
 		_select(){

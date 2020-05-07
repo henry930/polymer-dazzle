@@ -93,9 +93,12 @@
 
 		<div class="container flex-horizontal-with-ratios">
 			<div class="flex3child">
-				<div id="preview">
+				<div id="preview" hide>
 					<img id="orgSrc" src="#">
 
+				</div>
+				<div id="dropzone">
+					<dz-dropzone></dz-dropzone>
 				</div>
 					
 			</div>
@@ -128,7 +131,7 @@
 						<vaadin-button id="downloadBtn" on-click="_saveCrop">存入圖片庫</vaadin-button>
 
 						<hr>
-						<div id="avatarPreview"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"></div>
+						<div id="avatarPreview" style="width:50%"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"></div>
 					</page>
 					<page>
 						<iron-icon icon="vaadin:vaadin-h"></iron-icon>
