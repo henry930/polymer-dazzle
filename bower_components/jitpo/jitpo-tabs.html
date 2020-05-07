@@ -80,6 +80,7 @@
             });
 
             document.addEventListener('save',e=>{
+                console.log('Jitpo Tab',this.innerHTML);
                 Polymer.fileManager.saveFile('template/'+Polymer.tid+'/JITPO-TABS/html',this.innerHTML);
             });
 
